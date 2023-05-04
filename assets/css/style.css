@@ -133,4 +133,33 @@ img {
 }
 #theme__sunnyside main #main__stand .image {
   flex-basis: 50%;
+}
+#theme__sunnyside main #main__design {
+  display: flex;
+  align-items: center;
+}
+#theme__sunnyside main #main__design .content {
+  flex-basis: 50%;
+}
+#theme__sunnyside main #main__design .content .extent {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#theme__sunnyside main #main__design .content .extent .headline {
+  position: absolute;
+  padding: 6rem 16rem;
+  text-align: center;
+}
+#theme__sunnyside main #main__design .content .extent .headline span {
+  font-family: var(--theme__headline__font);
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--black);
+}
+#theme__sunnyside main #main__design .content .extent .headline p {
+  margin-top: 20px;
+  color: var(--very-dark-grayish-blue);
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */

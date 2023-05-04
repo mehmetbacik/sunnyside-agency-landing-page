@@ -146,5 +146,34 @@ img {
                 flex-basis: 50%;
             }
         }
+        #main__design {
+            display: flex;
+            align-items: center;
+            .content {
+                flex-basis: 50%;
+                .extent {
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-end;
+                    .headline {
+                        position: absolute;
+                        padding: 6rem 16rem;
+                        text-align: center;
+                        span {
+                            font-family: var(--theme__headline__font);
+                            font-weight: bold;
+                            font-size: 30px;
+                            color: var(--black);
+                        }
+                        p {
+                            margin-top: 20px;
+                            color: var(--very-dark-grayish-blue);
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
