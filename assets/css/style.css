@@ -162,4 +162,36 @@ img {
   margin-top: 20px;
   color: var(--very-dark-grayish-blue);
   font-size: 20px;
+}
+#theme__sunnyside main #main__client {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+#theme__sunnyside main #main__client .headline {
+  text-align: center;
+}
+#theme__sunnyside main #main__client .headline span {
+  font-family: var(--theme__headline__font);
+  text-transform: uppercase;
+  color: var(--dark-grayish-blue);
+  letter-spacing: 8px;
+}
+#theme__sunnyside main #main__client .content {
+  margin-top: 60px;
+}
+#theme__sunnyside main #main__client .content .swiper-slide .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+#theme__sunnyside main #main__client .content .swiper-slide .image img {
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+}
+#theme__sunnyside main #main__client .content .swiper-slide .text {
+  font-size: 16px;
+  text-align: center;
+  color: var(--very-dark-grayish-blue);
 }/*# sourceMappingURL=style.css.map */
