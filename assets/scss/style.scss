@@ -64,7 +64,8 @@ img {
             display: flex;
             justify-content: center;
             .title {
-                position: absolute;
+                position: absolute; 
+                margin-top: 80px;
                 span {
                     font-family: var(--theme__headline__font);
                     font-size: 50px;
@@ -72,6 +73,14 @@ img {
                     color: var(--white);
                     text-transform: uppercase;
                     letter-spacing: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 80px;
+                    &::after {
+                        content: url(/assets/img/icon-arrow-down.svg);
+                    }
                 }
             }
             .image {

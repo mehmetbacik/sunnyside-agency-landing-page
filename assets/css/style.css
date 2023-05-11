@@ -59,6 +59,7 @@ img {
 }
 #theme__sunnyside header #header__creatives .title {
   position: absolute;
+  margin-top: 80px;
 }
 #theme__sunnyside header #header__creatives .title span {
   font-family: var(--theme__headline__font);
@@ -67,6 +68,14 @@ img {
   color: var(--white);
   text-transform: uppercase;
   letter-spacing: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 80px;
+}
+#theme__sunnyside header #header__creatives .title span::after {
+  content: url(/assets/img/icon-arrow-down.svg);
 }
 #theme__sunnyside main #main__transform {
   display: flex;
