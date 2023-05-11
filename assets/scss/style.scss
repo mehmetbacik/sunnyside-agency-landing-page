@@ -107,6 +107,9 @@ img {
                     font-family: var(--theme__headline__font);
                     border-bottom: solid 4px var(--yellow);
                     text-decoration: none;
+                    &:hover {
+                        border-color: var(--soft-red);
+                    }
                 }
             }
             .image {
@@ -140,6 +143,9 @@ img {
                     font-family: var(--theme__headline__font);
                     border-bottom: solid 4px var(--yellow);
                     text-decoration: none;
+                    &:hover {
+                        border-color: var(--soft-red);
+                    }
                 }
             }
             .image {
@@ -205,7 +211,69 @@ img {
                         font-size: 16px;
                         text-align: center;
                         color: var(--very-dark-grayish-blue);
+                        margin-bottom: 40px;
                     }
+                    .personal {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        gap: 5px;
+                        .name {
+                            font-family: var(--theme__headline__font);
+                            font-weight: bold;
+                        }
+                        .job {
+                            color: var(--grayish-blue);
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+        #main__images {
+            display: flex;
+            align-items: center;
+        }
+    }
+    footer {
+        background-color: var(--dark-moderate-cyan);
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .footer__logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 50px;
+            img {
+                width: 250px;
+            }
+        }
+        .footer__menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 80px;
+            margin-bottom: 50px;
+            a {
+                color: var(--dark-desaturated-cyan);
+                font-size: 18px;
+                text-decoration: none;
+                &:hover {
+                    color: var(--white);
+                }
+            }
+        }
+        .footer__social {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            i {
+                color: var(--dark-desaturated-cyan);
+                &:hover {
+                    color: var(--white);
+                    cursor: pointer;
                 }
             }
         }

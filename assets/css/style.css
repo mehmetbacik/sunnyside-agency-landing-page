@@ -98,6 +98,9 @@ img {
   border-bottom: solid 4px var(--yellow);
   text-decoration: none;
 }
+#theme__sunnyside main #main__transform .content a:hover {
+  border-color: var(--soft-red);
+}
 #theme__sunnyside main #main__transform .image {
   flex-basis: 50%;
 }
@@ -130,6 +133,9 @@ img {
   font-family: var(--theme__headline__font);
   border-bottom: solid 4px var(--yellow);
   text-decoration: none;
+}
+#theme__sunnyside main #main__stand .content a:hover {
+  border-color: var(--soft-red);
 }
 #theme__sunnyside main #main__stand .image {
   flex-basis: 50%;
@@ -194,4 +200,66 @@ img {
   font-size: 16px;
   text-align: center;
   color: var(--very-dark-grayish-blue);
+  margin-bottom: 40px;
+}
+#theme__sunnyside main #main__client .content .swiper-slide .personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+#theme__sunnyside main #main__client .content .swiper-slide .personal .name {
+  font-family: var(--theme__headline__font);
+  font-weight: bold;
+}
+#theme__sunnyside main #main__client .content .swiper-slide .personal .job {
+  color: var(--grayish-blue);
+  font-size: 14px;
+}
+#theme__sunnyside main #main__images {
+  display: flex;
+  align-items: center;
+}
+#theme__sunnyside footer {
+  background-color: var(--dark-moderate-cyan);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#theme__sunnyside footer .footer__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+#theme__sunnyside footer .footer__logo img {
+  width: 250px;
+}
+#theme__sunnyside footer .footer__menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 50px;
+}
+#theme__sunnyside footer .footer__menu a {
+  color: var(--dark-desaturated-cyan);
+  font-size: 18px;
+  text-decoration: none;
+}
+#theme__sunnyside footer .footer__menu a:hover {
+  color: var(--white);
+}
+#theme__sunnyside footer .footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#theme__sunnyside footer .footer__social i {
+  color: var(--dark-desaturated-cyan);
+}
+#theme__sunnyside footer .footer__social i:hover {
+  color: var(--white);
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
