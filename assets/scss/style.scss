@@ -96,7 +96,7 @@ img {
             align-items: center;
             .content {
                 flex-basis: 50%;
-                padding: 10rem;
+                padding: 4rem;
                 span {
                     color: var(--black);
                     font-family: var(--theme__headline__font);
@@ -132,7 +132,7 @@ img {
             align-items: center;
             .content {
                 flex-basis: 50%;
-                padding: 10rem;
+                padding: 4rem;
                 span {
                     color: var(--black);
                     font-family: var(--theme__headline__font);
@@ -175,7 +175,7 @@ img {
                     align-items: flex-end;
                     .headline {
                         position: absolute;
-                        padding: 6rem 16rem;
+                        padding: 3rem 8rem;
                         text-align: center;
                         span {
                             font-family: var(--theme__headline__font);
@@ -292,15 +292,185 @@ img {
 }
 
 @media (max-width: 1200px) { 
-    
+    #theme__sunnyside {
+        main {
+            #main__transform {
+                .content {
+                    padding: 2rem;
+                    span {
+                        font-size: 40px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+            #main__stand {
+                .content {
+                    padding: 2rem;
+                    span {
+                        font-size: 40px;
+                    }
+                    p {
+                        font-size: 20px;
+                    }
+                }
+            }
+            #main__design {
+                .content {
+                    .extent {
+                        .headline {
+                            padding: 1rem 2rem;
+                            span {
+                                font-size: 30px;
+                            }
+                            p {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) { 
-    
+    #theme__sunnyside {
+        header {
+            .navbar {
+                padding-top: 25px;
+                padding-bottom: 25px;
+                #navbarSupportedContent {
+                    background-color: var(--white);
+                    margin-top: 40px;
+                    position: relative;
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        right: 0;
+                        top: -1.5rem;
+                        border-top: 1rem solid transparent;
+                        border-bottom: 1rem solid var(--white);
+                        border-left: 1rem solid transparent;
+                        border-right: 1rem solid var(--white);
+                    }
+                    .navbar-nav {
+                        gap: 30px;
+                        padding: 40px;
+                        .nav-item {
+                            .nav-link {
+                                color: var(--dark-desaturated-cyan);
+                                text-align: center;
+                                &:hover {
+                                    color: var(--black);
+                                    background-color: var(--yellow);
+                                    border-radius: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        main {
+            #main__transform {
+                .content {
+                    padding: 0rem 2rem;
+                    text-align: center;
+                    span {
+                        font-size: 30px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+            #main__stand {
+                .content {
+                    padding: 0rem 2rem;
+                    text-align: center;
+                    span {
+                        font-size: 30px;
+                    }
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+            #main__design {
+                .content {
+                    .extent {
+                        .headline {
+                            padding: 1rem;
+                            span {
+                                font-size: 25px;
+                            }
+                            p {
+                                margin-top: 15px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) { 
-    
+    #theme__sunnyside {
+        header {
+            background-image: url(/assets/img/mobile/image-header.jpg);
+        }
+        main {
+            #main__transform {
+                .content {
+                    span {
+                        font-size: 25px;
+                    }
+                    p {
+                        font-size: 12px;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                    }
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+            #main__stand {
+                .content {
+                    span {
+                        font-size: 25px;
+                    }
+                    p {
+                        font-size: 12px;
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                    }
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+            #main__design {
+                .content {
+                    .extent {
+                        .headline {
+                            span {
+                                font-size: 25px;
+                            }
+                            p {
+                                margin-top: 15px;
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) { 
@@ -361,6 +531,12 @@ img {
                     span {
                         font-size: 40px;
                     }
+                    p {
+                        font-size: 20px;
+                    }
+                    a {
+                        font-size: 18px;
+                    }
                 }
             }
             #main__stand {
@@ -371,6 +547,12 @@ img {
                     span {
                         font-size: 40px;
                     }
+                    p {
+                        font-size: 20px;
+                    }
+                    a {
+                        font-size: 18px;
+                    }
                 }
             }
             #main__design {
@@ -379,6 +561,13 @@ img {
                     .extent {
                         .headline {
                             padding: 2rem;
+                            span {
+                                font-size: 30px;
+                            }
+                            p {
+                                font-size: 20px;
+                                margin-top: 20px;
+                            }
                         }
                     }
                 }
