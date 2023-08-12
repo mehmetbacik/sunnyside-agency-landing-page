@@ -1,7 +1,5 @@
 # SunnySide Agency Landing Page
 
-![SunnySide Agency Landing Page](screenshot.png)
-
 This project includes the source code for the visually appealing landing page design of SunnySide Agency Landing Page. It has been built using HTML, CSS, SCSS, and JavaScript.
 
 ## Features
@@ -27,9 +25,7 @@ This project includes the source code for the visually appealing landing page de
 
 ## Screenshots
 
-![SunnySide Agency Landing Page Screenshot](screenshot.png)
-
-For a detailed exploration of the project, you can visit [here](https://mehmetbacik.github.io/sunnyside-agency-landing-page/).
+For a detailed exploration of the project, you can visit the [deployed site here](https://sunnyside-agency-landing-page-mbck00.vercel.app/).
 
 ---
 
