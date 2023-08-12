@@ -1,7 +1,5 @@
 # SunnySide Agency Landing Page
 
----
-
 This project includes the source code for the visually appealing landing page design of SunnySide Agency Landing Page. It has been built using HTML, CSS, SCSS, and JavaScript.
 
 ## Features
