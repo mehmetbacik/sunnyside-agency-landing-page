@@ -17,11 +17,16 @@ This project includes the source code for the visually appealing landing page de
 - SCSS (Sass)
 - JavaScript
 
-## Getting Started
+## Clone the Repository
 
-1. Clone the repo: `git clone https://github.com/mehmetbacik/sunnyside-agency-landing-page.git`
-2. Navigate to the project directory: `cd sunnyside-agency-landing-page`
-3. Open the downloaded files in your browser or host them on a server.
+To clone the project, run the following commands:
+
+```
+git clone https://github.com/mehmetbacik/sunnyside-agency-landing-page.git
+```
+```
+cd sunnyside-agency-landing-page
+```
 
 ## Deploy
 
